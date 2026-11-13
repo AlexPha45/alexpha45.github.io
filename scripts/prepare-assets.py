@@ -287,15 +287,9 @@ def make_social() -> None:
     text(85, 417, "Mathematics. Data. Code.", 26, "#aeb4c0")
     text(85, 517, "alexpha45.github.io", 19)
     line([(85, 479), (685, 479)], "#3d424d")
-    points, depths = trefoil_points(934, 292, 55, -.15)
-    scaled = [(round(x * ratio), round(y * ratio)) for x, y in points]
-    draw.line(scaled, fill="#6693ff", width=12 * ratio, joint="curve")
-    for index, _ in intersections(points, depths):
-        segment = scaled[max(0, index - 11): min(len(scaled), index + 13)]
-        draw.line(segment, fill=INK, width=23 * ratio, joint="curve")
-        draw.line(segment, fill="#6693ff", width=12 * ratio, joint="curve")
+    text(820, 168, "AP", 220, "#6693ff", display=True)
     text(838, 500, "THEORY → SYSTEMS", 15, "#aeb4c0")
-    image.resize((1200, 630), Image.Resampling.LANCZOS).save(IMAGES / "social-preview.png", optimize=True)
+    image.resize((1200, 630), Image.Resampling.LANCZOS).save(IMAGES / "social-preview-v2.png", optimize=True)
 
 
 def make_favicon() -> None:
