@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'WhizBang';
+  src: url('/fonts/whizbang-roman.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
   --font-sans: 'Plus Jakarta Sans Variable', 'Plus Jakarta Sans', Arial, sans-serif;
   --font-display: 'Barlow Condensed', 'Arial Narrow', Impact, sans-serif;
@@ -360,6 +368,7 @@ h2 { font-family: var(--font-display); font-size: clamp(42px, 4.7vw, 64px); font
 /* Keep the text-led hero and organization marks balanced at every width. */
 .hero-main { display: block; }
 .hero-copy { max-width: 900px; }
+.hero h1 { font-family: 'WhizBang', var(--font-display); font-size: clamp(30px, 9.6vw, 100px); font-weight: 400; line-height: 1.1; letter-spacing: 0; }
 .section-heading h2.eyebrow { font-family: var(--font-sans); font-size: 11px; font-weight: 650; letter-spacing: .15em; line-height: 1.6; margin: 0; }
 .experience-organization { display: flex; align-items: center; gap: 14px; margin-bottom: 12px; }
 .experience-organization .project-category { margin: 0; }

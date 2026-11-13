@@ -52,7 +52,6 @@ export const profile = {
   location: 'Toronto, Canada',
   education: 'University of Toronto · B.Sc. Mathematics & Statistics · Expected 2028',
   schoolEmail: 'alexandros.phardis@mail.utoronto.ca',
-  personalEmail: 'anp45nasa@gmail.com',
   github: 'https://github.com/AlexPha45',
   linkedin: 'https://www.linkedin.com/in/alexandros-phardis-b51478344/',
   resume: '/resume/alexandros-phardis-resume.pdf',

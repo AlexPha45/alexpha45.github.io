@@ -71,8 +71,7 @@ function Contact() {
     <div className="site-width contact-grid">
       <div className="contact-copy reveal"><p className="eyebrow"><span>03</span> / Contact</p><h2 id="contact-heading">GET IN<br /><span className="contact-count">TOUCH.</span></h2><span className="contact-location"><span className="status-square" />{profile.location}</span></div>
       <div className="contact-links reveal">
-        <a className="contact-card" href={`mailto:${profile.schoolEmail}`}><span className="contact-kind">ACADEMIC & PROFESSIONAL</span><span className="contact-value">{profile.schoolEmail}</span><Icon /></a>
-        <a className="contact-card" href={`mailto:${profile.personalEmail}`}><span className="contact-kind">SAY HELLO</span><span className="contact-value">{profile.personalEmail}</span><Icon /></a>
+        <a className="contact-card" href={`mailto:${profile.schoolEmail}`}><span className="contact-kind">EMAIL</span><span className="contact-value">{profile.schoolEmail}</span><Icon /></a>
         <div className="social-contact-grid"><a className="social-contact" href={profile.github} target="_blank" rel="noreferrer"><Icon name="github" /><span>GitHub</span><Icon size={16} /></a><a className="social-contact" href={profile.linkedin} target="_blank" rel="noreferrer"><Icon name="linkedin" /><span>LinkedIn</span><Icon size={16} /></a></div>
       </div>
     </div>
