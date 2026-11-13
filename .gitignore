@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.cache/
+.artifacts/
+*.local
+.env
+.env.*
+!.env.example
+Comic theme images/
+Pokerbot tournament photos/
+Alexandros_Phardis_Resume*.pdf
+*.log
+.DS_Store
+Thumbs.db
