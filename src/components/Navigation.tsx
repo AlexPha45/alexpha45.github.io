@@ -63,7 +63,6 @@ export function Navigation({ active, onNavigate }: NavigationProps) {
     <header className="site-header" ref={headerRef}>
       <div className="site-width header-inner">
         <a className="wordmark" href="#home" aria-label="Alexandros Phardis, home" onClick={(event) => navigate(event, 'home')}>AP<span>.</span></a>
-        <span className="header-caption">THINK DEEPLY.<br />BUILD THOUGHTFULLY.</span>
         <button
           className="menu-toggle"
           type="button"

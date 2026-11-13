@@ -1,20 +1,13 @@
-import type { ReactNode } from 'react';
-
 interface SectionHeadingProps {
   number: string;
   label: string;
-  title: ReactNode;
-  children?: ReactNode;
+  id: string;
 }
 
-export function SectionHeading({ number, label, title, children }: SectionHeadingProps) {
+export function SectionHeading({ number, label, id }: SectionHeadingProps) {
   return (
     <div className="section-heading reveal">
-      <div>
-        <p className="eyebrow"><span>{number}</span><span aria-hidden="true"> / </span>{label}</p>
-        <h2>{title}</h2>
-      </div>
-      {children && <p className="section-intro">{children}</p>}
+      <h2 id={id} className="eyebrow"><span>{number}</span><span aria-hidden="true"> / </span>{label}</h2>
     </div>
   );
 }

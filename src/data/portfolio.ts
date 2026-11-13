@@ -118,7 +118,6 @@ export const projects: Project[] = [
       'Examined necessary conditions for trefoil factors and polynomial-divisibility patterns in torus knots.',
     ],
     note: 'Polynomial divisibility provides necessary conditions; it is not a complete test for connected-sum decomposition.',
-    credits: 'Joint work with Aryan Ihsan and Suri Tian, supervised by Dr. Malors Espinosa and Kevin Santos.',
     links: [
       { label: 'Repository', href: trefoilRepository },
       { label: 'Presentation', href: `${trefoilRepository}/blob/main/CUMC_2025_Presentation%20%289%29.pdf` },
