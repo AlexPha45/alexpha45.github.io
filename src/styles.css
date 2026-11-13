@@ -1,14 +1,10 @@
 @import "tailwindcss";
 
-@font-face { font-family: 'Prevalent Sans Pro'; src: url('/fonts/prevalent-regular.otf') format('opentype'); font-style: normal; font-weight: 400; font-display: swap; }
-@font-face { font-family: 'Prevalent Sans Pro'; src: url('/fonts/prevalent-medium.otf') format('opentype'); font-style: normal; font-weight: 500; font-display: swap; }
-@font-face { font-family: 'Prevalent Sans Pro'; src: url('/fonts/prevalent-semibold.otf') format('opentype'); font-style: normal; font-weight: 600; font-display: swap; }
-@font-face { font-family: 'Prevalent Sans Pro'; src: url('/fonts/prevalent-bold.otf') format('opentype'); font-style: normal; font-weight: 700; font-display: swap; }
 @font-face { font-family: 'Prevalent Sans Pro'; src: url('/fonts/prevalent-extrabold.otf') format('opentype'); font-style: normal; font-weight: 800; font-display: swap; }
 
 @theme {
-  --font-sans: 'Prevalent Sans Pro', Arial, sans-serif;
-  --font-display: 'Prevalent Sans Pro', Arial, sans-serif;
+  --font-sans: 'Plus Jakarta Sans Variable', 'Plus Jakarta Sans', Arial, sans-serif;
+  --font-display: 'Barlow Condensed', 'Arial Narrow', Impact, sans-serif;
   --color-ink: #121212;
   --color-paper: #f3f2ed;
   --color-pop: #4379ff;
@@ -366,9 +362,7 @@ h2 { font-family: var(--font-display); font-size: clamp(42px, 4.7vw, 64px); font
 /* Keep the text-led hero and organization marks balanced at every width. */
 .hero-main { display: block; }
 .hero-copy { max-width: 900px; }
-.hero h1 { font-family: var(--font-display); font-size: clamp(36px, 11.8vw, 100px); font-weight: 800; line-height: 1.08; letter-spacing: -.025em; }
-.project-content h3, .experience-content h3 { overflow-wrap: anywhere; }
-.impact-strip strong { font-size: clamp(24px, 2.5vw, 34px); }
+.hero h1 { font-family: 'Prevalent Sans Pro', var(--font-display); font-size: clamp(36px, 11.8vw, 100px); font-weight: 800; line-height: 1.08; letter-spacing: -.025em; }
 .section-heading h2.eyebrow { font-family: var(--font-sans); font-size: 11px; font-weight: 650; letter-spacing: .15em; line-height: 1.6; margin: 0; }
 .experience-organization { display: flex; align-items: center; gap: 14px; margin-bottom: 12px; }
 .experience-organization .project-category { margin: 0; }
